@@ -97,6 +97,8 @@ func httpInterface() {
 		V2.Any("/QueryLastPlace", queryLastPlace)
 		V2.POST("/RiverNormal", RiverNormal)
 		V2.POST("/RiverFlow", RiverFlow)
+		V2.POST("/UpdateGeographicInfo", UpdateGeographicInfo)
+
 	}
 
 	srv := &http.Server{

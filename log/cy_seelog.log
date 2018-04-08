@@ -7713,3 +7713,386 @@ subflows_24
 	:subflows_24       
 	)
 2018-03-23 18:54:57 [RiverFlow.go.612] INF {1 OK}
+2018-04-08 15:59:37 [main.go.48] INF =======服务器端口:15554
+2018-04-08 15:59:37 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 15:59:37 [main.go.50] INF =======数据库端口:3306
+2018-04-08 15:59:37 [main.go.51] INF =======数据库用户:root
+2018-04-08 15:59:37 [main.go.52] INF =======数据库密码:123123
+2018-04-08 15:59:37 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 15:59:42 [TemplateInterface.go.31] INF ==========================查询GPS开始:/river/QueryLastPlace127.0.0.1
+2018-04-08 15:59:42 [TemplateInterface.go.38] ERR request Content-Type isn't multipart/form-data
+2018-04-08 15:59:42 [TemplateInterface.go.38] INF ==========================查询GPS结束
+
+
+2018-04-08 16:00:30 [TemplateInterface.go.31] INF ==========================查询GPS开始:/river/QueryLastPlace127.0.0.1
+2018-04-08 16:00:30 [TemplateInterface.go.38] ERR request Content-Type isn't multipart/form-data
+2018-04-08 16:00:30 [TemplateInterface.go.38] INF ==========================查询GPS结束
+
+
+2018-04-08 16:00:44 [TemplateInterface.go.31] INF ==========================查询GPS开始:/river/QueryLastPlace127.0.0.1
+2018-04-08 16:00:44 [TemplateInterface.go.38] ERR no multipart boundary param in Content-Type
+2018-04-08 16:00:44 [TemplateInterface.go.38] INF ==========================查询GPS结束
+
+
+2018-04-08 16:08:32 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:08:32 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag}
+2018-04-08 16:08:32 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:09:06 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:09:06 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:09:06 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:09:31 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:09:31 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:09:31 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:10:17 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:10:17 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:10:17 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:10:17 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:10:17 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:10:17 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:10:21 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:10:21 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag}
+2018-04-08 16:10:21 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:10:30 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:10:30 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:10:30 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:10:39 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:10:39 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag}
+2018-04-08 16:10:39 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:10:47 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:10:47 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag}
+2018-04-08 16:10:47 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:11:47 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:11:47 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:11:47 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:11:47 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:11:47 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:11:47 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:11:51 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:11:51 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:11:51 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:12:07 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:12:07 [UpdateGeographicInfo.go.47] INF {2 Key: 'tmp_GeographicInfo.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:12:07 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:12:26 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:12:26 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:12:26 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:12:26 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:12:26 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:12:47 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:12:47 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:12:47 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:12:47 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:12:47 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:12:47 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:12:52 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:12:52 [UpdateGeographicInfo.go.36] INF 
+2018-04-08 16:12:52 [UpdateGeographicInfo.go.41] INF 0
+2018-04-08 16:12:52 [UpdateGeographicInfo.go.42] INF {1 OK}
+2018-04-08 16:12:52 [UpdateGeographicInfo.go.50] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:13:17 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:13:17 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:13:17 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:13:17 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:13:17 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:13:17 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:13:22 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:13:22 [UpdateGeographicInfo.go.36] INF 
+2018-04-08 16:13:22 [UpdateGeographicInfo.go.37] INF 0
+2018-04-08 16:13:22 [UpdateGeographicInfo.go.42] INF 0
+2018-04-08 16:13:22 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:13:22 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:13:58 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:13:58 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:13:58 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:13:58 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:13:58 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:13:58 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:14:03 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:14:03 [UpdateGeographicInfo.go.48] INF {2 Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:14:03 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:14:27 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:14:27 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:14:27 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:14:27 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:14:27 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:14:27 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:14:30 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:14:30 [UpdateGeographicInfo.go.48] INF {2 Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:14:30 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:27:07 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:27:07 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:27:07 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:27:07 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:27:07 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:27:48 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:27:48 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:27:48 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:27:48 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:27:48 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:27:48 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:27:54 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:27:54 [UpdateGeographicInfo.go.48] INF {2 Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:27:54 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:28:36 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:28:36 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:28:36 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:28:36 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:28:36 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:28:36 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:28:41 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:28:41 [UpdateGeographicInfo.go.48] INF {2 Key: 'tmp_GeographicInfo.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag}
+2018-04-08 16:28:41 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:29:58 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:29:58 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:29:58 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:29:58 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:29:58 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:29:58 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:30:01 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:30:01 [UpdateGeographicInfo.go.36] INF 
+2018-04-08 16:30:01 [UpdateGeographicInfo.go.37] INF 0
+2018-04-08 16:30:01 [UpdateGeographicInfo.go.42] INF 0
+2018-04-08 16:30:01 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:30:01 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:30:57 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:30:57 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:30:57 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:30:57 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:30:57 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:30:57 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:31:02 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:31:02 [UpdateGeographicInfo.go.48] INF {2 Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag}
+2018-04-08 16:31:02 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:32:01 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:32:01 [UpdateGeographicInfo.go.36] INF sd
+2018-04-08 16:32:01 [UpdateGeographicInfo.go.37] INF 23
+2018-04-08 16:32:01 [UpdateGeographicInfo.go.42] INF 21
+2018-04-08 16:32:01 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:32:01 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:32:49 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:32:49 [UpdateGeographicInfo.go.48] INF {2 Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag}
+2018-04-08 16:32:49 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:33:02 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:33:02 [UpdateGeographicInfo.go.48] INF {2 json: cannot unmarshal string into Go struct field tmp_GeographicInfo.longitude of type float64}
+2018-04-08 16:33:02 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:33:12 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:33:12 [UpdateGeographicInfo.go.48] INF {2 json: cannot unmarshal string into Go struct field tmp_GeographicInfo.longitude of type float64}
+2018-04-08 16:33:12 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:33:24 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:33:24 [UpdateGeographicInfo.go.48] INF {2 json: cannot unmarshal string into Go struct field tmp_GeographicInfo.longitude of type float64}
+2018-04-08 16:33:24 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:33:33 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:33:33 [UpdateGeographicInfo.go.36] INF 12323
+2018-04-08 16:33:33 [UpdateGeographicInfo.go.37] INF 32.7
+2018-04-08 16:33:33 [UpdateGeographicInfo.go.42] INF 43
+2018-04-08 16:33:33 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:33:33 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:33:41 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:33:41 [UpdateGeographicInfo.go.48] INF {2 Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag}
+2018-04-08 16:33:41 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:33:47 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:33:47 [UpdateGeographicInfo.go.48] INF {2 Key: 'tmp_GeographicInfo.User_id' Error:Field validation for 'User_id' failed on the 'required' tag}
+2018-04-08 16:33:47 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:33:50 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:33:50 [UpdateGeographicInfo.go.36] INF 12323
+2018-04-08 16:33:50 [UpdateGeographicInfo.go.37] INF 32.7
+2018-04-08 16:33:50 [UpdateGeographicInfo.go.42] INF 43
+2018-04-08 16:33:50 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:33:50 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:33:54 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:33:54 [UpdateGeographicInfo.go.48] INF {2 invalid character '-' in numeric literal}
+2018-04-08 16:33:54 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:34:03 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:34:03 [UpdateGeographicInfo.go.36] INF sd
+2018-04-08 16:34:03 [UpdateGeographicInfo.go.37] INF 23
+2018-04-08 16:34:03 [UpdateGeographicInfo.go.42] INF 21
+2018-04-08 16:34:03 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:34:03 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:48:56 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:48:56 [UpdateGeographicInfo.go.36] INF sd
+2018-04-08 16:48:56 [UpdateGeographicInfo.go.37] INF 23
+2018-04-08 16:48:56 [UpdateGeographicInfo.go.42] INF 21
+2018-04-08 16:48:56 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:48:56 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:49:09 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:49:09 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:49:09 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:49:09 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:49:09 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:49:09 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:49:25 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:49:25 [UpdateGeographicInfo.go.36] INF sd
+2018-04-08 16:49:25 [UpdateGeographicInfo.go.37] INF 23
+2018-04-08 16:49:25 [UpdateGeographicInfo.go.42] INF 21
+2018-04-08 16:49:25 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:49:25 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:49:31 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:49:31 [UpdateGeographicInfo.go.36] INF sd
+2018-04-08 16:49:31 [UpdateGeographicInfo.go.37] INF 23.3
+2018-04-08 16:49:31 [UpdateGeographicInfo.go.42] INF 21
+2018-04-08 16:49:31 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:49:31 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:49:51 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:49:51 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:49:51 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:49:51 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:49:51 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:49:51 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:49:53 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:49:53 [UpdateGeographicInfo.go.48] INF {2 strconv.ParseInt: parsing "23.3": invalid syntax}
+2018-04-08 16:49:53 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:50:07 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:50:07 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:50:07 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:50:07 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:50:07 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:50:07 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:50:10 [UpdateGeographicInfo.go.28] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:50:10 [UpdateGeographicInfo.go.36] INF sd
+2018-04-08 16:50:10 [UpdateGeographicInfo.go.37] INF 23.3
+2018-04-08 16:50:10 [UpdateGeographicInfo.go.42] INF 21
+2018-04-08 16:50:10 [UpdateGeographicInfo.go.43] INF {1 OK}
+2018-04-08 16:50:10 [UpdateGeographicInfo.go.51] INF ==========================地理信息GPS结束
+
+
+2018-04-08 16:54:15 [main.go.48] INF =======服务器端口:15554
+2018-04-08 16:54:15 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 16:54:15 [main.go.50] INF =======数据库端口:3306
+2018-04-08 16:54:15 [main.go.51] INF =======数据库用户:root
+2018-04-08 16:54:15 [main.go.52] INF =======数据库密码:123123
+2018-04-08 16:54:15 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 16:54:31 [UpdateGeographicInfo.go.37] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 16:54:31 [UpdateGeographicInfo.go.44] INF sd
+2018-04-08 16:54:31 [UpdateGeographicInfo.go.45] INF 23.3
+2018-04-08 16:54:31 [UpdateGeographicInfo.go.46] INF 21
+2018-04-08 16:54:31 [UpdateGeographicInfo.go.51] DBG insert into  table values(
+			
+		)
+2018-04-08 16:54:31 [UpdateGeographicInfo.go.56] ERR Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table values(
+			
+		)' at line 1
+2018-04-08 16:54:31 [asm_amd64.s.509] INF ==========================地理信息GPS结束
+
+
+2018-04-08 17:03:38 [main.go.48] INF =======服务器端口:15554
+2018-04-08 17:03:39 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 17:03:39 [main.go.50] INF =======数据库端口:3306
+2018-04-08 17:03:39 [main.go.51] INF =======数据库用户:root
+2018-04-08 17:03:39 [main.go.52] INF =======数据库密码:123123
+2018-04-08 17:03:39 [main.go.56] INF =======数据库名称:riverdb
+2018-04-08 17:03:41 [UpdateGeographicInfo.go.38] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 17:03:41 [UpdateGeographicInfo.go.69] INF {2 Key: 'tmp_GeographicInfo.Locat_long' Error:Field validation for 'Locat_long' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.Locat_lat' Error:Field validation for 'Locat_lat' failed on the 'required' tag
+Key: 'tmp_GeographicInfo.System_code' Error:Field validation for 'System_code' failed on the 'required' tag}
+2018-04-08 17:03:41 [UpdateGeographicInfo.go.72] INF ==========================地理信息GPS结束
+
+
+2018-04-08 17:04:02 [UpdateGeographicInfo.go.38] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 17:04:02 [UpdateGeographicInfo.go.54] DBG insert into  tbase_locat(system_code,system_type,locat_long,locat_lat) values(
+			:system_code,
+			:system_type,
+			:locat_long,
+			:locat_lat
+		)
+2018-04-08 17:04:02 [UpdateGeographicInfo.go.64] INF {1 OK}
+2018-04-08 17:04:02 [UpdateGeographicInfo.go.72] INF ==========================地理信息GPS结束
+
+
+2018-04-08 17:09:00 [UpdateGeographicInfo.go.38] INF ==========================上传地理信息GPS开始:/river/UpdateGeographicInfo127.0.0.1
+2018-04-08 17:09:00 [UpdateGeographicInfo.go.54] DBG insert into  tbase_locat(system_code,system_type,locat_long,locat_lat) values(
+			:system_code,
+			:system_type,
+			:locat_long,
+			:locat_lat
+		)
+2018-04-08 17:09:00 [UpdateGeographicInfo.go.64] INF {1 OK}
+2018-04-08 17:09:00 [UpdateGeographicInfo.go.72] INF ==========================地理信息GPS结束
+
+
+2018-04-08 17:15:28 [main.go.48] INF =======服务器端口:15554
+2018-04-08 17:15:28 [main.go.49] INF =======数据库地址:localhost
+2018-04-08 17:15:28 [main.go.50] INF =======数据库端口:3306
+2018-04-08 17:15:28 [main.go.51] INF =======数据库用户:root
+2018-04-08 17:15:28 [main.go.52] INF =======数据库密码:123123

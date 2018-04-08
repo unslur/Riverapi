@@ -118,36 +118,32 @@ func RiverNormal(c *gin.Context) {
 	oneItem.Capture_time = info_tmp.Capture_time
 	sqlcmd := ""
 	if oneItem.Guid_id == 34 {
-		sqlcmd = fmt.Sprintf(`insert into tspss_dwd_all(
-		station_id    ,
-		guid_id       ,
-		guid_id_10    ,		
+		sqlcmd = fmt.Sprintf(`insert into tspss_dwd_waterlevel(
+		seg_section_code    ,
+		
 		capture_time  ,
 		dwd_value         
 		) values(
 		:station_id    ,
-		:guid_id       ,
-		:guid_id_10    ,
+		
 		:capture_time  ,
 		:dwd_value   
 	)`)
 	} else if oneItem.Guid_id == 57 {
-		sqlcmd = fmt.Sprintf(`insert into tspss_dwd_all(
-		station_id    ,
-		guid_id       ,
-		guid_id_10    ,		
+		sqlcmd = fmt.Sprintf(`insert into tspss_dwd_waterlevel(
+		seg_section_code    ,
+		
 		capture_time  ,
 		dwd_value         
 		) values(
 		:station_id    ,
-		:guid_id       ,
-		:guid_id_10    ,
+		
 		:capture_time  ,
 		:dwd_value   
 	)`)
 	} else {
 		sqlcmd = fmt.Sprintf(`insert into tspss_dwd_all(
-		station_id    ,
+		seg_section_code    ,
 		guid_id       ,
 		guid_id_10    ,		
 		capture_time  ,

@@ -19,12 +19,20 @@ type tmpList struct {
 
 func queryLastPlace(c *gin.Context) {
 
+	tx, err := db.Beginx()
+	if err != nil {
+		cylog.Error(err)
+		return
+	}
 	defer func() {
-		cylog.Flush()
+
 		err := recover()
 		if err != nil {
+			tx.Rollback()
 			cylog.Error("有错误发生，正在回滚", err)
 
+		} else {
+			tx.Commit()
 		}
 
 	}()
